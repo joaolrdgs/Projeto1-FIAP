@@ -1,0 +1,83 @@
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.product {
+    height: 376px;
+    border-width: 2px;
+    border-style: solid;
+    margin: 10px;
+}
+
+.product > .showcase {
+    padding: 10px;
+    height: 80%;
+}
+
+.product > .showcase > h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.product > .showcase > p {
+    text-align: justify;
+    color: var(--primaria);
+}
+
+.value {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    height: 20%;
+}
+
+.value .text {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.value > .text > h4 {
+    font-size: 20px;
+}
+
+.value > .text > p {
+    font-size: 12px;
+}
+
+.value > .car {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.product:nth-child(odd) .showcase > h3 {
+    background-color: var(--secundaria);
+    color: var(--primaria);
+}
+
+.product:nth-child(odd) {
+    border-color: var(--secundaria);
+}
+
+.product:nth-child(odd) > .value{
+    background-color: var(--primaria);
+}
+
+.product:nth-child(even) .showcase > h3 {
+    background-color: var(--vermelho);
+    color: var(--terciaria);
+}
+
+.product:nth-child(even) {
+    border-color: var(--terciaria);
+}
+
+.product:nth-child(even) > .value{
+    background-color: var(--terciaria);
+}

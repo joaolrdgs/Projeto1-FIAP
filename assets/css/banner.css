@@ -1,0 +1,8 @@
+.banner {
+    height: 45vh;
+    width: 100%;
+    background-image: url('../img/banner.fw.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

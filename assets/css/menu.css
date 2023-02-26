@@ -1,0 +1,66 @@
+.menu {
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+
+.menu .logo {
+    width: 194px;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.menu > ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: small;
+    width: 80%;
+}
+
+.menu > ul > li {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+}
+
+.menu > ul > li > a {
+    max-width: 90px;
+}
+
+.menu-pages {
+    background-color: var(--primaria);
+}
+
+.menu-pages > ul{
+    justify-content: end;
+}
+
+.menu-products {
+    justify-content: start;
+    background-color: var(--terciaria);
+}
+
+/* SELECT CSS */
+
+.selected-pages {
+    height: 60px;
+    background-color: var(--secundaria);
+}
+
+.selected-pages > a {
+    font-weight: bolder;
+}
+
+.selected-products {
+    height: 60px;
+    background-color: var(--branco);
+}
+
+.selected-products > a {
+    font-weight: bolder;
+    color: var(--terciaria);
+}
