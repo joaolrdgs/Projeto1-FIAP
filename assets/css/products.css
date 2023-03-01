@@ -10,6 +10,10 @@
     margin: 10px;
 }
 
+.product p {
+    font-size: 13px;
+}
+
 .product > .showcase {
     padding: 10px;
     height: 80%;
@@ -40,11 +44,11 @@
 }
 
 .value > .text > h4 {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .value > .text > p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .value > .car {
@@ -76,6 +80,10 @@
 
 .product:nth-child(even) {
     border-color: var(--terciaria);
+}
+
+.product:nth-child(even) .showcase > p {
+    color: var(--terciaria);
 }
 
 .product:nth-child(even) > .value{

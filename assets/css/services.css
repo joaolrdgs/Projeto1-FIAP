@@ -1,0 +1,74 @@
+.services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.service {
+    height: 350px;
+    width: 300px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.service-img {
+    margin: 0px;
+}
+
+.service > .showcase {
+    padding: 10px;
+    height: 80%;
+}
+
+.service > h3 {
+    text-align: left;
+}
+
+.service p{
+    font-size: 13px;
+    margin: 0px 10px 0px 10px;
+}
+
+.service h3{
+    margin: 0px 10px 0px 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.service > p {
+    text-align: justify;
+}
+
+.service > .showcase {
+    padding: 0px;
+    height: 400px;
+}
+
+.service > .showcase > h3 {
+    padding: 10px 0px 30px 5px;
+    font-size: 17px;
+}
+
+.service > .showcase > p {
+    text-align: justify;
+    color: var(--terciaria);
+}
+
+.service:nth-child(odd) .showcase > h3 {
+    color: var(--terciaria);
+}
+
+.service:nth-child(odd) {
+    border-color: var(--terciaria);
+}
+
+.service:nth-child(even) .showcase > h3 {
+    color: var(--primaria);
+}
+
+.service:nth-child(even) {
+    border-color: var(--secundaria);
+}
+
+.service:nth-child(even) .showcase > p {
+    color: var(--primaria);
+}
