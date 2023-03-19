@@ -5,9 +5,11 @@
 
 .service {
     height: 350px;
-    width: 300px;
+    max-width: 300px;
     border-width: 2px;
     border-style: solid;
+    margin: 10px;
+    border-bottom: 8px solid;
 }
 
 .service-img {
@@ -15,32 +17,15 @@
 }
 
 .service > .showcase {
-    padding: 10px;
-    height: 80%;
+    height: 100%;
+    overflow: hidden;
 }
 
-.service > h3 {
+.service > .showcase > h3 {
     text-align: left;
-}
-
-.service p{
-    font-size: 13px;
-    margin: 0px 10px 0px 10px;
-}
-
-.service h3{
-    margin: 0px 10px 0px 10px;
+    margin: 0px 10px;
     text-transform: uppercase;
     font-weight: 700;
-}
-
-.service > p {
-    text-align: justify;
-}
-
-.service > .showcase {
-    padding: 0px;
-    height: 400px;
 }
 
 .service > .showcase > h3 {
@@ -51,6 +36,8 @@
 .service > .showcase > p {
     text-align: justify;
     color: var(--terciaria);
+    font-size: 13px;
+    margin: 0px 10px;
 }
 
 .service:nth-child(odd) .showcase > h3 {
