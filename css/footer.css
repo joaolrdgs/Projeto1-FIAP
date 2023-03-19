@@ -1,8 +1,18 @@
 .drones{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 70px 0px 0px -110px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.drone1 {
+  grid-column: 1;
+}
+
+.drone2 {
+  grid-column: 5;
+}
+
+.drone3 {
+  grid-column: 7;
 }
 
 .infos{
