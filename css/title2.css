@@ -1,0 +1,19 @@
+.title2 {
+    display: grid;
+    grid-template-columns: 1fr 0.1fr;
+    width: 100%;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.title2 > .title2-image {
+    justify-self: center;
+    max-width: 77px;
+}
+
+.title2 > h2 {
+    font-size: 18px;
+    color: var(--azulsecundario);
+    padding: 5px;
+    border-bottom: 5px solid var(--azulsecundario);
+}

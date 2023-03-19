@@ -1,0 +1,46 @@
+.drones{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 70px 0px 0px -110px;
+}
+
+.infos{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px 10px 20px;
+  background-color: #1b8d99;
+  height: 96px;
+  width: 100%;
+}
+.infos span{
+  color: white;
+  font-size: 14px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px 70px 10px 80px;
+}
+
+.logo_dronesnet{
+  width: 123px;
+  height: 28px;
+}
+
+.foto_prof{
+  margin-bottom: 20px;
+}
+
+.prof_name{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 26px; 
+  background-color: #660000;
+}
+
+.prof_name p{
+  color: white;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 100px;
+}
