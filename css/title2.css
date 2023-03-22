@@ -8,10 +8,12 @@
 
 .title2 > .title2-image {
     justify-self: center;
-    max-width: 77px;
+    width: 125px;
 }
 
 .title2 > h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
     font-size: 18px;
     color: var(--azulsecundario);
     padding: 5px;

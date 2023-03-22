@@ -8,10 +8,12 @@
 
 .title > .title-image {
     justify-self: center;
-    max-width: 77px;
+    width: 125px;
 }
 
 .title > h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
     color: var(--terciaria);
     padding: 5px;
     border-bottom: 5px solid var(--terciaria);
