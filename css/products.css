@@ -1,13 +1,18 @@
 .products{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    gap: 40px;
 }
 
 .product {
     height: 376px;
     border-width: 2px;
     border-style: solid;
-    margin: 10px;
+    max-width: 300px;
 }
 
 .product p {
